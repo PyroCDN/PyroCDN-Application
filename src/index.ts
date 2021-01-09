@@ -18,7 +18,7 @@ win.setStyleSheet(
     }
   `
 );
-win.setFixedSize(1280, 720)
+win.setMinimumSize(600, 550)
 win.show();
 
 (global as any).win = win;
